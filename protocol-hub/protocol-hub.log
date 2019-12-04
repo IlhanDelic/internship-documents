@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.17)  19 NOV 2019 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.17)  4 DEC 2019 11:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -247,7 +247,12 @@ LaTeX Info: Redefining \nameref on input line 16.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./prot
-ocol-hub.toc)
+ocol-hub.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write4
 \openout4 = `protocol-hub.toc'.
 
@@ -257,54 +262,434 @@ been already used, duplicate ignored
                    \relax 
 l.37 \cleardoublepage
                       %clears the rest of the page [1]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
 
  []
 
-<pictures/protocolDraft.png, id=33, 671.50874pt x 511.9125pt>
-File: pictures/protocolDraft.png Graphic file (type png)
-<use pictures/protocolDraft.png>
-Package pdftex.def Info: pictures/protocolDraft.png  used on input line 49.
-(pdftex.def)             Requested size: 361.34999pt x 275.46786pt.
 
-Overfull \hbox (16.34999pt too wide) in paragraph at lines 49--50
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
+
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--56
+
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \end{document}
-                    [1
+l.56 \cleardoublepage
+                      [1
 
- <./pictures/protocolDraft.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
+
+ []
+
+
+./protocol-hub.tex:64: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 S
+      SE require a certain syntax, but on the other hand the cloud has store...
+
+? s
+OK, entering \scrollmode...
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+
+./protocol-hub.tex:68: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 T
+      he event server and the client need to be hosted on a certain address ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--84
+
+ []
+
+<pictures/prototypeV2.png, id=110, 745.78625pt x 704.6325pt>
+File: pictures/prototypeV2.png Graphic file (type png)
+<use pictures/prototypeV2.png>
+Package pdftex.def Info: pictures/prototypeV2.png  used on input line 87.
+(pdftex.def)             Requested size: 361.34999pt x 341.4023pt.
+
+Overfull \hbox (16.34999pt too wide) in paragraph at lines 87--88
+[][] 
+ []
+
+
+./protocol-hub.tex:91: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 T
+      he server is a entity whose primary responsibilities are: \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 91--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--104
+
+ []
+
+
+./protocol-hub.tex:108: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 t
+       he function of this protocol is to enable the stream of structured da...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--126
+
+ []
+
+[4 <./pictures/prototypeV2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--136
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 141--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--190
+
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+./protocol-hub.tex:200: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 X
+       MPP is the Extensible Messaging and Presence Protocol, a set of open ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--213
+
+ []
+
+[8
+
+]
+
+./protocol-hub.tex:217: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 M
+       QTT supports easy and unrestricted message-based communication.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--225
+
+ []
+
+
+./protocol-hub.tex:226: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./protocol-hub.tex:227: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 T
+       he Crownstone rest api is running on heroku and is available at https...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (68.61185pt too wide) in paragraph at lines 227--232
+\OT1/cmr/m/n/10 The Crown-stone rest api is run-ning on heroku and is avail-abl
+e at https://cloud.crownstone.rocks.
+ []
+
+
+Overfull \hbox (1.46263pt too wide) in paragraph at lines 227--232
+\OT1/cmr/m/n/10 POST https://cloud.crownstone.rocks/api/users/login. Note, nav-
+i-gat-ing to that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
+
+ []
+
+[9
+
+]
+./protocol-hub.tex:246: Missing $ inserted.
+<inserted text> 
+                $
+l.246 ...ownstone/crownstone-sdk/blob/master/REST_
+                                                  API.md\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./protocol-hub.tex:256: Missing $ inserted.
+<inserted text> 
+                $
+l.256 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--256
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+[10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./protocol-hub.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `protocol-hub.out' has not changed.
-(rerunfilecheck)             Checksum: 34BCF971AF7A7B6DDE5E0DE6959FE17C;136.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+(rerunfilecheck)             Checksum: 63446C67459969C0768E2AAEBBE3B04A;932.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
- 5085 strings out of 492616
- 75961 string characters out of 6129481
- 165421 words of memory out of 5000000
- 8983 multiletter control sequences out of 15000+600000
- 5150 words of font info for 19 fonts, out of 8000000 for 9000
+ 5139 strings out of 492616
+ 76617 string characters out of 6129481
+ 169980 words of memory out of 5000000
+ 9014 multiletter control sequences out of 15000+600000
+ 5457 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,28p,601b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,28p,822b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on protocol-hub.pdf (3 pages, 111643 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on protocol-hub.pdf (12 pages, 158433 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.17)  4 DEC 2019 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.17)  5 DEC 2019 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -376,11 +376,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--84
 
  []
 
-<pictures/prototypeV2.png, id=110, 745.78625pt x 704.6325pt>
-File: pictures/prototypeV2.png Graphic file (type png)
-<use pictures/prototypeV2.png>
-Package pdftex.def Info: pictures/prototypeV2.png  used on input line 87.
-(pdftex.def)             Requested size: 361.34999pt x 341.4023pt.
+<pictures/prototypeV3.png, id=110, 707.64375pt x 653.44125pt>
+File: pictures/prototypeV3.png Graphic file (type png)
+<use pictures/prototypeV3.png>
+Package pdftex.def Info: pictures/prototypeV3.png  used on input line 87.
+(pdftex.def)             Requested size: 361.34999pt x 333.67937pt.
 
 Overfull \hbox (16.34999pt too wide) in paragraph at lines 87--88
 [][] 
@@ -440,7 +440,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--126
 
  []
 
-[4 <./pictures/prototypeV2.png>]
+[4 <./pictures/prototypeV3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 130--136
 
  []
@@ -668,12 +668,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `protocol-hub.out' has not changed.
 (rerunfilecheck)             Checksum: 63446C67459969C0768E2AAEBBE3B04A;932.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
  5139 strings out of 492616
  76617 string characters out of 6129481
- 169980 words of memory out of 5000000
+ 169979 words of memory out of 5000000
  9014 multiletter control sequences out of 15000+600000
  5457 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -686,7 +690,7 @@ sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on protocol-hub.pdf (12 pages, 158433 bytes).
+Output written on protocol-hub.pdf (12 pages, 151236 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  161 compressed objects within 2 object streams

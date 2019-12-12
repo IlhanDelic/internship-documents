@@ -8,11 +8,12 @@
 \BOOKMARK [2][-]{subsection.3.2}{Restictions}{section.3}% 8
 \BOOKMARK [1][-]{section.4}{Requirements}{}% 9
 \BOOKMARK [1][-]{section.5}{Test}{}% 10
-\BOOKMARK [2][-]{subsection.5.1}{Authentication}{section.5}% 11
-\BOOKMARK [2][-]{subsection.5.2}{One client test}{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.3}{Multiple clients test}{section.5}% 13
-\BOOKMARK [1][-]{section.6}{Research}{}% 14
-\BOOKMARK [2][-]{subsection.6.1}{XMPP}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.2}{MQTT Homie}{section.6}% 16
-\BOOKMARK [2][-]{subsection.6.3}{Crownstone SDK}{section.6}% 17
-\BOOKMARK [1][-]{section.7}{References}{}% 18
+\BOOKMARK [2][-]{subsection.5.1}{Authentication 1}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Authentication 2}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{One client test}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.4}{Multiple clients test}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Research}{}% 15
+\BOOKMARK [2][-]{subsection.6.1}{XMPP}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.2}{MQTT Homie}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.3}{Crownstone SDK}{section.6}% 18
+\BOOKMARK [1][-]{section.7}{References}{}% 19

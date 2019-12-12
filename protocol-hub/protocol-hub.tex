@@ -38,7 +38,7 @@
 %-------------------------------------------------------------------------------------------------------------
 \pagenumbering{arabic}%the western number system
 \section{introduction}\label{sec:intro}% reference
-This is the documentation for the protocol for the hub. I'll describe my thinking and design process for this protocol. there are a couple of protocol layers in a thing called the osi model. when you make an other protocol you add an layer on top of the existing osi model layers. the layers with their corresponding protocols are as follows:\\
+This is the documentation for the protocol for the Crownstone hub. I'll describe my thinking and design process for this protocol. There are a couple of protocol layers in the osi model. When you make an other protocol you add a layer on top of the existing osi model layers. The layers with their corresponding protocols are as follows:\\
 \\
 1. link layer:  PPP, DSC, Wi-Fi\\
 \\
@@ -52,14 +52,13 @@ This is the documentation for the protocol for the hub. I'll describe my thinkin
 \\
 6  My layer: application layer kind of thing. this will be the protocol that I have to make.\\
 \\
-The protocol should describe the way of communication of the hub with the  cloud and the steps required to this. I'll try my best to describe it but it's my first time making a protocol by my self and documenting it. 
+The protocol should describe the way of communication of the hub with the  cloud and the steps required to this. This document describes the architecture, and functionality the protocol has as well as requirements and tests. The test are documented and describe how it will be tested and what the goal is with the tests. 
 \cleardoublepage
 %-------------------------------------------------------------------------------------------------------------
 \section{Architecture}\label{sec:architecture}
-The protocol provides a technology for unidirectional data exchange by using SSE. The cloud connects with an Event server. The hub at peoples homes will make a connection(REST call) to the cloud using the evenserver. This architectural style uses SSE and both the server and client can end the connection at a certain point after the start of the connection. \\
+The protocol provides a technology for unidirectional data exchange by using SSE. The cloud connects with an Event server. The hub at peoples homes will make a connection(REST call) to the cloud using the evenserver. This architectural style uses SSE and both the server and client can end the connection at a certain point after the start of the connection.  In order to start a connection you need to log in and you account will be authenticated with my \\
 \\
 %-------------------------------------------------------------------------------------------------------------
-
 \subsection{Structured data}\label{sec:strucdata} \\
 SSE require a certain syntax, but on the other hand the cloud has stored data in a certain way as wel. lucky the way the cloud shows its data is with JSON and we can use JSON with SSE. SSE is a keep alive connection until the server or the client leaves the party the data stream won't stop.\\
 %-------------------------------------------------------------------------------------------------------------
@@ -105,7 +104,7 @@ Cloud responsibilities  \\
 %-------------------------------------------------------------------------------------------------------------
 \section{functionality} 
  \\
-the function of this protocol is to enable the stream of structured data over a network consisting of the Crownstone cloud and several servers. The data will be picked up from the cloud by the hub, and the hub will stream the data to the connected clients. The data will be streamed using SSE(server send events), with server send events the your data gets automatically updated  every couple of seconds. This is an excellent way to show data that changes often.\\
+the function of this protocol is to enable the stream of structured data over a network consisting of the Crownstone cloud and several servers. A user needs to log in to the hug. when logged in the user gets a token so the users will be able to get the right data. The data will be picked up from the cloud by the hub, and the hub will stream the data to the connected clients. The data will be streamed using SSE(server send events), with server send events the your data gets automatically updated  every couple of seconds. This is an excellent way to show data that changes often.\\
 \\
 The hub should be connected with the cloud when the hub is powered on. The hub is in the same sphere as  the other Crownstones, when in the same sphere the hub could easily get the data from the stones. With this way you can only acquire your own data or the data in your sphere.  
 \\
@@ -114,30 +113,32 @@ Steps on how it wil function \\
 \\
 Hub  - Cloud: \\
 1. The hub is turned on\\
-2. The hub connects to the cloud\\
-3. The connection with the cloud is completed and the hub will show it's connected\\
-4. When connected you can enter several commands to get data\\
-5. Run the command which runs a bash script to get data stream\\
-6. Hub gets the data from the cloud as JSON\\
-7. start a SSE stream \\
-8. The JSON data will be streamed on the hub and can be picked up by the clients\\
-9. When the SSE stream is stoped by client or host there will be a final message to clarify that the connection is dead\\
-10. End SSE connection 
+2. The user logs in\\
+3. The user gets authenticated\\
+4. The hub connects to the cloud\\
+5. The connection with the cloud is completed and the hub will show it's connected\\
+6. When connected you can enter several commands to get data\\
+7. Run the command which runs a bash script to get data stream\\
+8. Hub gets the data from the cloud as JSON\\
+9. start a SSE stream \\
+10. The JSON data will be streamed on the hub and can be picked up by the clients\\
+11. When the SSE stream is stoped by client or host there will be a final message to clarify that the connection is dead\\
+12. End SSE connection\\
 
 
 describe all sides clients, server, user? 
 \subsection{Dependencies}\label{dependencies}
-To get SSE working you'll need a server which host the data stream and a client which listens to the server. You can choose to do this on and offline. If you're running SSE online you'll 
+To get SSE working you'll need a server which host the data stream and a client which listens to the server. You need to login or create a account in order to access data. 
+
 
 \subsection{Restictions}\label{restrictions}
 When using SSE there are some restrictions, as with the maximum number of connections you can have. The maximum number of connections needs to be set.************
 %-------------------------------------------------------------------------------------------------------------
 \section{Requirements}\label{sec:requirements}
 1: Serialise from/to js/ts\\
-using json to receive data, because we're using ts/js.
+Using json to receive data, because we're using ts/js.
 the data that is shown in the cloud is also in a json form 
-the base JSON streaming layer 
-UTF-8?\\
+the base JSON streaming layer\\
 \\
 2: Minimise calls to server(endpoints)\\
 make sure the calls to the server are minimised by choosing to stream dynamic data and not static data.\\
@@ -149,16 +150,20 @@ there is no need for static data, just the dynamic data that changes like locati
 sse is used to stream the dynamic data this is a more efficient way then using websockets\\
 \\
 5: How many connections simultaneously ? needs to be set
-can connect with x clients at a time\\
+can connect with x clients at a time\\ **************
 \\
 6: One last message when the communication ends. \\
 either form the server or client side but there will be a message if you're not active for a long period of time or when a client ends the connection. \\
 \\
-7: Making a REST call using the GET methode\\
+7: Making a REST call using the GET methode to get a token and to verify your request with the data you're trying to get is the right data for you.\\
 \\
 8: The client will be using a token to verify his/her identity when they log in to the cloud\\
 \\
-9: 
+9: User is able to choose a certain data stream so you don't get everything at once.\\
+\\
+10: Able to start/stop data stream at will.\\
+\\
+
 %-------------------------------------------------------------------------------------------------------------
 \cleardoublepage
 \section{Test}\label{sec:test}
@@ -166,8 +171,8 @@ This part will describe how the test of the protocol. To make sure the protocol 
 To realise the protocol it should be tested. I don't want to screw up anything with the cloud and i need to start small so I'll host a server on heroku where some dynamic data will be stored. This data will be fetched by a central server and streamed if a client starts a connection. when the client is connected to the central server the data will be streamed until the connection dies at one of the sides. When the stream ends there will be a final message noting that the connection is dead and needs to be reconnected. This is useful is a user isn't active for a long time or if a user chooses to stop the connection him self. This test covers most of the requirements i've set for the protocol. To test if this works with multiple servers i'll make 2 - 3 clients to test this and make it happen. \\
 %-------------------------------------------------------------------------------------------------------------
 
-\subsection{Authentication}\label{authentication}
-The authentication test uses a program which simulates a register, login and welcome page. \\
+\subsection{Authentication 1}\label{authentication1}
+The authentication process for requesting data. When the user is logged in they will get a token for authentication. With this token the user can access the right data(their own).The authentication test uses a program which simulates a register, login and welcome page. \\
 \\
 step 1.
 \\
@@ -183,7 +188,11 @@ Now you should be registered and you'll be able to log in at the login page. \\
 Step 4.\\
 Once you've logged in you'll get to the home page. At the homepage you can add or delete(as an owner) other users who can access this data. You can log out at the homepage.\\
 \\
+
 The test is a succes if the user is able to log in with the account that was just created
+%-------------------------------------------------------------------------------------------------------------
+\subsection{Authentication 2}\label{authentication2}
+
 %-------------------------------------------------------------------------------------------------------------
 
 \subsection{One client test}\label{client test}

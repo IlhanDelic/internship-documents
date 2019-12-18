@@ -112,7 +112,7 @@ The user can stop the data stream at any time.
 The data is always being updated by your phone which send frequent event updates to the cloud. 
 %------------------------------------------------------------------------------------------------------------- 
 \section{Authentication}
-	
+Authentication is a big part of the protocol. We  can't send the data to the person it is not destined to go too. Therefore the event server needs to function as a filter for returning data. When the server receives a token the sender gets the corresponding data. It is described in this following diagram.\\
 	\begin{figure}[H]
 	\includegraphics[width=4in]{pictures/authenticationFlow.png}
 	\caption[Optional caption]{authentication flow}

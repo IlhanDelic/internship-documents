@@ -54,7 +54,72 @@ This is the documentation for the protocol for the Crownstone hub. I'll describe
 \\
 The protocol should describe the way of communication of the hub with the  cloud and the steps required to this. This document describes the architecture, and functionality the protocol has as well as requirements and tests. The test are documented and describe how it will be tested and what the goal is with the tests. 
 \cleardoublepage
+
 %-------------------------------------------------------------------------------------------------------------
+\section{Data structure}
+The data is send in a JSON file, because the 
+The different kinds of data that is being send are: \\
+\\
+currentLocation:\\
+\\
+- timestamp: "time now"\\
+- user: "string"\\
+- user id: "string"\\ 
+- current location: \\
+\\
+\\
+currentEnergyUsage:\\
+\\
+- name of the stone: "string"\\
+- energy usage: \\
+- duration: \\
+- timestamp: "time now"\\
+%-------------------------------------------------------------------------------------------------------------
+\section{Constraints} 
+
+The server is a entity whose primary responsibilities are: \\
+- launch a keep alive stream\\
+- get data from the cloud and stream this to the client which requested it\\
+- stay connected with the cloud and communicate with it \\
+- broker between cloud and client to stream the requested data\\
+\\
+Client responsibilities  \\
+- initiate a connection with the event server\\
+- send a request for data\\
+\\
+Cloud responsibilities  \\
+-  the cloud saves the data\\
+- provides the data for the server\\ 
+
+%-------------------------------------------------------------------------------------------------------------
+\cleardoublepage
+\section{Exchange protocol}
+
+\label{fig:protocolDraft}	
+	\begin{figure}[H]
+	\includegraphics[width=4in]{pictures/prototypeV3.png}
+	\caption[Optional caption]{protocol draft design}
+	\end{figure}\\
+\\
+The data exchange all starts at the client when they log in, when logged in you get a token. This token is the identifier of the user, when sending requests to servers the token is being send in as well. This is done so the user won't get someone else's information which is wat we want to prevent. \\
+\\
+The user can request different kinds of data, like location or energy-usage. Streaming the data is highly useful for data that changes frequently like indoor location or energy-usage. \\
+\\
+When the token is authenticated which indicates that the users is the correct user and the data stream begins.\\ 
+\\
+The user can stop the data stream at any time. 
+\\
+The data is always being updated by your phone which send frequent event updates to the cloud. 
+%------------------------------------------------------------------------------------------------------------- 
+\section{Authentication}
+	
+	\begin{figure}[H]
+	\includegraphics[width=4in]{pictures/authenticationFlow.png}
+	\caption[Optional caption]{authentication flow}
+	\end{figure}\\
+
+%------------------------------------------------------------------------------------------------------------- 
+
 \section{Architecture}\label{sec:architecture}
 The protocol provides a technology for unidirectional data exchange by using SSE. The cloud connects with an Event server. The hub at peoples homes will make a connection(REST call) to the cloud using the evenserver. This architectural style uses SSE and both the server and client can end the connection at a certain point after the start of the connection.  In order to start a connection you need to log in and you account will be authenticated with my \\
 \\
@@ -79,28 +144,10 @@ The communication needs to start at the hub side and the hub needs to make a RES
 \\
 The data at the cloud is being updated by the smartphones in the Crownstone network. The phone keeps the data at the cloud up to date.  The  data can only be send by the users of the sphere. The sphere is a container of a set of Locations, Stones and Appliances. Every instance of these models has to belong to a sphere so that users can interact with them. Only the users which are members of the sphere owning the Stones can interact with them, be that switching, or just reading the states. These users can send event updates and can view the data from the cloud which is being streamed onto the hub.\\
 \\
-The hub remains in the sphere just like the other Crownstone objects. It's in the same network with the stones through BLE. 
+The hub remains in the sphere just like the other Crownstone objects. It's in the same network with the stones through BLE. \\
 
-\label{fig:protocolDraft}	
-	\begin{figure}[H]
-	\includegraphics[width=5in]{pictures/prototypeV3.png}
-	\caption[Optional caption]{protocol draft design}
-	\end{figure}
-\\
-The server is a entity whose primary responsibilities are: \\
-- launch a keep alive stream\\
-- get data from the cloud and stream this to the client which requested it\\
-- stay connected with the cloud and communicate with it \\
-- broker between cloud and client to stream the requested data\\
-\\
-Client responsibilities  \\
-- initiate a connection with the event server\\
-- automatically request data\\
-\\
-Cloud responsibilities  \\
--  the cloud saves the data\\
-- provides the data for the server\\ 
 
+\\
 %-------------------------------------------------------------------------------------------------------------
 \section{functionality} 
  \\
@@ -125,14 +172,6 @@ Hub  - Cloud: \\
 11. When the SSE stream is stoped by client or host there will be a final message to clarify that the connection is dead\\
 12. End SSE connection\\
 
-
-describe all sides clients, server, user? 
-\subsection{Dependencies}\label{dependencies}
-To get SSE working you'll need a server which host the data stream and a client which listens to the server. You need to login or create a account in order to access data. 
-
-
-\subsection{Restictions}\label{restrictions}
-When using SSE there are some restrictions, as with the maximum number of connections you can have. The maximum number of connections needs to be set.************
 %-------------------------------------------------------------------------------------------------------------
 \section{Requirements}\label{sec:requirements}
 1: Serialise from/to js/ts\\

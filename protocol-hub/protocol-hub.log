@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.17)  12 DEC 2019 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.17)  18 DEC 2019 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -249,9 +249,9 @@ LaTeX Info: Redefining \nameref on input line 16.
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./prot
 ocol-hub.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 7.
 )
 \tf@toc=\write4
 \openout4 = `protocol-hub.toc'.
@@ -304,126 +304,219 @@ l.56 \cleardoublepage
                       [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--78
 
  []
 
 
-./protocol-hub.tex:63: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 S
-      SE require a certain syntax, but on the other hand the cloud has store...
-
-? s
-OK, entering \scrollmode...
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 60--78
 
  []
 
 
-./protocol-hub.tex:67: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 60--78
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 T
-      he event server and the client need to be hosted on a certain address ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 60--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--93
 
  []
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--83
-
- []
-
-<pictures/prototypeV3.png, id=120, 707.64375pt x 653.44125pt>
+<pictures/prototypeV3.png, id=130, 707.64375pt x 653.44125pt>
 File: pictures/prototypeV3.png Graphic file (type png)
 <use pictures/prototypeV3.png>
-Package pdftex.def Info: pictures/prototypeV3.png  used on input line 86.
-(pdftex.def)             Requested size: 361.34999pt x 333.67937pt.
-
-Overfull \hbox (16.34999pt too wide) in paragraph at lines 86--87
-[][] 
- []
+Package pdftex.def Info: pictures/prototypeV3.png  used on input line 100.
+(pdftex.def)             Requested size: 289.07999pt x 266.93552pt.
 
 
-./protocol-hub.tex:90: LaTeX Error: There's no line here to end.
+./protocol-hub.tex:103: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 T
-      he server is a entity whose primary responsibilities are: \\
+l.103 \\
+        
+? s
+OK, entering \scrollmode...
+
+./protocol-hub.tex:104: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 T
+       he data exchange all starts at the client when they log in, when logg...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--114
+
+ []
+
+<pictures/authenticationFlow.png, id=132, 733.74126pt x 593.21625pt>
+File: pictures/authenticationFlow.png Graphic file (type png)
+<use pictures/authenticationFlow.png>
+Package pdftex.def Info: pictures/authenticationFlow.png  used on input line 11
+7.
+(pdftex.def)             Requested size: 289.07999pt x 233.71591pt.
+
+./protocol-hub.tex:120: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [3
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 90--103
+ <./pictures/prototypeV3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--103
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--103
-
- []
-
-
-./protocol-hub.tex:107: LaTeX Error: There's no line here to end.
+./protocol-hub.tex:128: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 t
+l.128 S
+       SE require a certain syntax, but on the other hand the cloud has stor...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+
+./protocol-hub.tex:132: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 T
+       he event server and the client need to be hosted on a certain address...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+[4 <./pictures/authenticationFlow.png>] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--148
+
+ []
+
+
+./protocol-hub.tex:152: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \section
+              {functionality}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./protocol-hub.tex:154: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 t
        he function of this protocol is to enable the stream of structured da...
 
 Your command was ignored.
@@ -431,145 +524,147 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--127
+Underfull \hbox (badness 10000) in paragraph at lines 154--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--127
+Underfull \hbox (badness 10000) in paragraph at lines 154--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--127
+Underfull \hbox (badness 10000) in paragraph at lines 154--174
 
  []
 
-[4 <./pictures/prototypeV3.png>] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+[6
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+]
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--166
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 170--173
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--191
+Underfull \hbox (badness 10000) in paragraph at lines 177--205
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--191
+Underfull \hbox (badness 10000) in paragraph at lines 214--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--191
+Underfull \hbox (badness 10000) in paragraph at lines 214--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--191
+Underfull \hbox (badness 10000) in paragraph at lines 214--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--191
+Underfull \hbox (badness 10000) in paragraph at lines 214--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--191
+Underfull \hbox (badness 10000) in paragraph at lines 214--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--221
+Underfull \hbox (badness 10000) in paragraph at lines 214--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--221
+Underfull \hbox (badness 10000) in paragraph at lines 238--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--221
+Underfull \hbox (badness 10000) in paragraph at lines 238--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--221
+Underfull \hbox (badness 10000) in paragraph at lines 238--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--221
-
- []
-
-[7
-
-] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 238--260
 
  []
 
 
-./protocol-hub.tex:233: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 238--260
+
+ []
+
+[9
+
+] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+
+ []
+
+
+./protocol-hub.tex:272: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 X
+l.272 X
        MPP is the Extensible Messaging and Presence Protocol, a set of open ...
 
 Your command was ignored.
@@ -577,77 +672,77 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--246
+Underfull \hbox (badness 10000) in paragraph at lines 272--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--246
+Underfull \hbox (badness 10000) in paragraph at lines 272--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--246
+Underfull \hbox (badness 10000) in paragraph at lines 272--285
 
  []
 
-[9
+[11
 
 ]
 
-./protocol-hub.tex:250: LaTeX Error: There's no line here to end.
+./protocol-hub.tex:289: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.250 M
+l.289 M
        QTT supports easy and unrestricted message-based communication.\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--258
+Underfull \hbox (badness 10000) in paragraph at lines 289--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--258
+Underfull \hbox (badness 10000) in paragraph at lines 289--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--258
+Underfull \hbox (badness 10000) in paragraph at lines 289--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--258
+Underfull \hbox (badness 10000) in paragraph at lines 289--297
 
  []
 
 
-./protocol-hub.tex:259: LaTeX Error: There's no line here to end.
+./protocol-hub.tex:298: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 \\
+l.298 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./protocol-hub.tex:260: LaTeX Error: There's no line here to end.
+./protocol-hub.tex:299: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 T
+l.299 T
        he Crownstone rest api is running on heroku and is available at https...
 
 Your command was ignored.
@@ -655,78 +750,78 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (68.61185pt too wide) in paragraph at lines 260--265
+Overfull \hbox (68.61185pt too wide) in paragraph at lines 299--304
 \OT1/cmr/m/n/10 The Crown-stone rest api is run-ning on heroku and is avail-abl
 e at https://cloud.crownstone.rocks.
  []
 
 
-Overfull \hbox (1.46263pt too wide) in paragraph at lines 260--265
+Overfull \hbox (1.46263pt too wide) in paragraph at lines 299--304
 \OT1/cmr/m/n/10 POST https://cloud.crownstone.rocks/api/users/login. Note, nav-
 i-gat-ing to that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--265
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--265
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--265
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
 
  []
 
-[10
+[12
 
 ]
-./protocol-hub.tex:279: Missing $ inserted.
+./protocol-hub.tex:318: Missing $ inserted.
 <inserted text> 
                 $
-l.279 ...ownstone/crownstone-sdk/blob/master/REST_
+l.318 ...ownstone/crownstone-sdk/blob/master/REST_
                                                   API.md\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./protocol-hub.tex:289: Missing $ inserted.
+./protocol-hub.tex:328: Missing $ inserted.
 <inserted text> 
                 $
-l.289 
+l.328 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--289
+Underfull \hbox (badness 10000) in paragraph at lines 309--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--289
+Underfull \hbox (badness 10000) in paragraph at lines 309--328
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-[11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+[13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
  (./protocol-hub.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
 Package rerunfilecheck Info: File `protocol-hub.out' has not changed.
-(rerunfilecheck)             Checksum: 780A6C76F81B8CBE86A727D9DBA46770;1064.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
+(rerunfilecheck)             Checksum: 55ACCA49887D878FD8A26E3ECB1CF51E;1149.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 5146 strings out of 492616
- 76718 string characters out of 6129481
- 170074 words of memory out of 5000000
- 9018 multiletter control sequences out of 15000+600000
+ 5156 strings out of 492616
+ 76907 string characters out of 6129481
+ 170009 words of memory out of 5000000
+ 9022 multiletter control sequences out of 15000+600000
  5457 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,6n,28p,822b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -738,10 +833,10 @@ sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on protocol-hub.pdf (13 pages, 153583 bytes).
+Output written on protocol-hub.pdf (15 pages, 179964 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 
